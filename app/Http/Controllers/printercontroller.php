@@ -44,7 +44,7 @@ class printercontroller extends Controller
             $request->validate([
             'name'=>'required',
             'address'=>'required',
-            'email'=>'required|email|unique:newmodels',
+            'email'=>'required|email|unique:newmodels,Email',
             'password'=>'required|min:5|max:12',
             'phone'=>'required'
         ]);
