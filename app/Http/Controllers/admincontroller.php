@@ -69,7 +69,7 @@ class admincontroller extends Controller
         $orders=DB::table('orders')
               ->select('productmodel_id','Email','Price')
               ->where('payment_status', 'paid')->get();
-              return view('/payHis',compact('orders'));
+              return view('/payhis',compact('orders'));
     }
 
 
