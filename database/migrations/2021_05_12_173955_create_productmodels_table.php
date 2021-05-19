@@ -16,7 +16,7 @@ class CreateProductmodelsTable extends Migration
         Schema::create('productmodels', function (Blueprint $table) {
             $table->id();
             $table->string("Name");
-            $table->string("Price");
+            $table->integer("Price");
             $table->string("Description");
             $table->string("Gallery");
             $table->timestamps();
