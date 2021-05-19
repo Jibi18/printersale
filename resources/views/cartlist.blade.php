@@ -31,7 +31,7 @@ $total=productcontroller::cartitem();
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">PrinteRpriX</a>
+      <a class="navbar-brand" href="/product">PrinteRpriX</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
