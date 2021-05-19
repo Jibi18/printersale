@@ -93,7 +93,7 @@ class productcontroller extends Controller
         $newmodelId=Session::get('LoggedUser');
        $productmodels=DB::table('cartmodels')->join('productmodels','cartmodels.productmodel_id','=','productmodels.id')
         ->where('cartmodels.newmodel_id',$newmodelId)
-        ->select('productmodels.*','cartmodels.id as cartmodels_id')->sum('productmodels.Price');
+        ->select('productmodels.*','cartmodels.id as cartmodels_id')->sum('Price');
         return view('ordernow',compact('productmodels'));
     }
     function orderPlace(Request $request)
