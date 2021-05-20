@@ -109,7 +109,7 @@ class productcontroller extends Controller
             $order->newmodel_id=$cartmodels['newmodel_id'];
             $order->Email=Session::get('LoggedMail');
             $order->Price=$p[0]->Price;
-            $order->booking_date=date("yyyy/mm/dd");
+            $order->booking_date=date("yyyy-mm-dd");
             $order->payment_method=$request->payment;
             $order->payment_status="pending";
             $order->save();
