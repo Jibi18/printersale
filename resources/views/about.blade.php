@@ -13,14 +13,13 @@
             transactions over the web. It is reasonable to say that the process of shopping on the web is
             becoming commonplace.The objective of this project is to develop a general purpose e-commerce store where product
             like printers can be bought from the comfort of home through the Internet. However, for
-            implementation purposes, this paper will deal with an online shopping for printers.
-            An online store is a virtual store on the Internet where customers can browse the catalog and
+            implementation purposes, this paper will deal with an offline shopping for printers.
+            An offline store is a store on the Internet where customers can browse the catalog and
             select products of interest. The selected items may be collected in a shopping cart. At checkout
             time, the items in the shopping cart will be presented as an order. At that time, more
-            information will be needed to complete the transaction. Usually, the customer will be asked to
-            fill or select a billing address, a shipping address, a shipping option, and payment information
-            such as credit card number. An e-mail notification is sent to the customer as soon as the order
-            is placed.</p>
+            information will be needed to complete the transaction. Usually, the customer will be asked to select
+            a payment information as cash on delivery. Finally, the customers are about to book the product as soon as the order
+            is placed. The payment deal is done once the customer come to buy the product on the shop. </p>
             </div>
             </div>
             </div>
