@@ -9,7 +9,7 @@
 </head>
 <body>
 <form action="/" method="post">
-@csrf
+{{csrf_field()}}
 <nav class="navbar navbar-dark bg-primary">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">

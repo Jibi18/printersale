@@ -60,7 +60,7 @@
 <h4><center><b>Delete Pay</center></h4>
 @foreach($cost as $bills)
 <form action="/paymentstatus/{{$bills->productmodel_id}}/{{$bills->Email}}" method="get">
-@csrf
+{{csrf_field()}}
     <table class="table table-borderless">
         <tr>
             <td>Product Name</td>

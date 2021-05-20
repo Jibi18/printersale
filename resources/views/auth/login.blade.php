@@ -46,7 +46,7 @@
         {{ Session::get('fail')}}
         </div>
     @endif
-@csrf
+{{csrf_field()}}
 <div class="form-group">
 <label>Email</label>
 <input type="text" class="form-control" name="email" placeholder=" Enter your email" value="{{ old('email') }}">

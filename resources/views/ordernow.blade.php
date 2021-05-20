@@ -79,7 +79,7 @@ $total=productcontroller::cartitem();
   </div>
   <br><br><br><br><br><br><br><br><br><br>
   <form action="/orderplace" method="post">
-  @csrf
+  {{csrf_field()}}
   <div class="form-group">
   <label for="pwd">Payment Method</label><br><br>
   <input type="radio" value="cash" name="payment"><span>Payment on delivery</span><br><br>

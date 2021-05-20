@@ -14,7 +14,7 @@
 </head>
 <body>
 <form action="">
-@csrf
+{{csrf_field()}}
 <?php
 use App\Http\Controllers\productcontroller;
 $total=0;

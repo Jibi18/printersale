@@ -9,7 +9,7 @@
 </head>
 <body>
 <form action="">
-@csrf
+{{csrf_field()}}
     <div class="container">
     <div class="row">
     <div class="col col-12 col-sm-12 col-md-6 col-lg-12 col-xl-12">

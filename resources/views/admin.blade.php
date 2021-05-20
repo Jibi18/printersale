@@ -14,7 +14,7 @@
 </head>
 <body>
 <form action="">
-@csrf
+{{csrf_field()}}
 <nav class="navbar navbar-default">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->

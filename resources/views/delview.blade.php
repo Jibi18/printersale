@@ -59,7 +59,7 @@
 <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
 <h4><center><b>DELETE PRODUCT</h4>
 <form action="/productdelprocess/{{$products->id}}" method="post">
-@csrf
+{{csrf_field()}}
     <table class="table table-borderless">
         <tr>
             <td>Product Name</td>

@@ -51,7 +51,7 @@
         {{ Session::get('Fail')}}
         </div>
     @endif
-@csrf
+{{csrf_field()}}
 <div class="form-group">
 <label>Name</label>
 <input type="text" class="form-control" name="name" placeholder=" Enter your name" value="{{ old('username') }}">
