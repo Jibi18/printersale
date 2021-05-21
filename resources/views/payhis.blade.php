@@ -63,6 +63,7 @@
 <table class="table table-borderless">
 <tr>
 <th>PRODUCT ID</th>
+<th>BOOKING DATE</th>
 <th>CUSTOMER EMAIL</th>
 <th>AMOUNT</th>
 </tr>
@@ -74,6 +75,7 @@ $count=0;
 @foreach($orders as $bills)
 <tr>
 <td>{{ $bills->productmodel_id }}</td>
+<td>{{ $bills->booking_date  }}</td>
 <td>{{ $bills->Email  }}</td>
 <td>{{ $bills->Price  }}</td>
 </tr>

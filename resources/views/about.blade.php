@@ -33,8 +33,7 @@
 <p><h8><center>Rajagiri College of Social Sciences (Autonomous),<br>
 Rajagiri P.O,<br>
 Kalamassery, Cochin - 683 104,<br>
-Kerala, India.<br><br> Email: admin@rajagiri.edu (Office)<br>
-        rcssadmission@rajagiri.edu (Admissions)<br><br>Contact No : +91 484 - 2911111 / 2911507 <br>
+Kerala, India.<br>Contact No : +91 484 - 2911111 / 2911507 <br>
  +91 484 - 2532862</h8></p>
  <br><br>
  <p><h6><center><b>Technical Support</h6></p>

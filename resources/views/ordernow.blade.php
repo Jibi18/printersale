@@ -13,8 +13,6 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </head>
 <body>
-<form action="">
-@csrf
 <?php
 use App\Http\Controllers\productcontroller;
 $total=0;
@@ -60,19 +58,19 @@ $total=productcontroller::cartitem();
     <tbody>
       <tr>
         <td>Amount</td>
-        <td>$ {{$productmodels}}</td>
+        <td>₹ {{$productmodels}}</td>
       </tr>
       <tr>
         <td>Tax</td>
-        <td>$ 0</td>
+        <td>₹ 0</td>
       </tr>
       <tr>
         <td>Delivery</td>
-        <td>$ 10</td>
+        <td>₹ 10</td>
       </tr>
       <tr>
         <td>Total Amount</td>
-        <td>$ {{$productmodels+10}}</td>
+        <td>₹ {{$productmodels+10}}</td>
       </tr>
     </tbody>
   </table>
@@ -88,7 +86,6 @@ $total=productcontroller::cartitem();
 </form>
   </div>
   </div>
-  </form>
   </body>
 <style>
 img.slider-img{

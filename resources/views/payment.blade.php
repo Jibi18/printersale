@@ -63,7 +63,7 @@
 {{csrf_field()}}
     <table class="table table-borderless">
         <tr>
-            <td>Product Name</td>
+            <td>Product Id</td>
             <td><input value="{{ $bills->productmodel_id }}" type="text"  class="form-control"></td>
         </tr>
         <tr>

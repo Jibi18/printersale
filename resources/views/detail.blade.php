@@ -61,7 +61,7 @@ $total=productcontroller::cartitem();
 <div class="col-sm-6">
 <a href="/product"><h6>Go Back</h6></a>
 <h2>{{$productmodel['Name']}}</h2>
-<h3>Price : ${{$productmodel['Price']}}</h3>
+<h3>Price :  ₹{{$productmodel['Price']}}</h3>
 <h4>Details : {{$productmodel['Description']}}</h4>
 <br><br>
 <form action="/add_to_cart" method="post">

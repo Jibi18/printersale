@@ -13,8 +13,6 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </head>
 <body>
-<form action="">
-{{csrf_field()}}
 <?php
 use App\Http\Controllers\productcontroller;
 $total=0;
@@ -44,6 +42,7 @@ $total=productcontroller::cartitem();
         
       </ul>
       <form action="/search" class="navbar-form navbar-left">
+      {{csrf_field()}}
         <div class="form-group">
           <input type="text" name="query" class="form-control search-box" placeholder="Search">
         </div>
@@ -76,7 +75,6 @@ $total=productcontroller::cartitem();
    @endforeach
   </div>
   </div>
-  </form>
   </body>
 <style>
 img.slider-img{
