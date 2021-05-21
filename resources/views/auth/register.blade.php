@@ -78,7 +78,7 @@
 <span class="text-danger">@error('phone') {{ $message }} @enderror</span>
 </div>
 <br>
-<button type="submit" class="btn btn-block btn-primary">Sign in</button>
+<button type="submit" class="btn btn-block btn-primary">Sign up</button>
 <br>
 <a href="{{ route('auth.login') }}">i already have an account, Sign in</a>
 </form>

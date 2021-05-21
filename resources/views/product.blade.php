@@ -109,7 +109,7 @@ $total=productcontroller::cartitem();
   @foreach($products as $item)
     <div class="trending-item">
     <a href="detail/{{$item['id']}}">
-      <img height="300em" class="trending-image" src="{{$item['Gallery']}}">
+      <img class="trending-image" src="{{$item['Gallery']}}">
       <div class="">
         <h4>{{$item['Name']}}</h4>
       </div>
